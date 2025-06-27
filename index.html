@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty Foods</title>
+    <link rel="icon" href="./image/restaurant.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+<!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-warning fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand text-white fw-bold" href="#">Tasty Foods Restaurant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active fw-bold" aria-current="page" href="#carouselExampleIndicators">Home</a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link fw-bold" href="#order">Orders</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link fw-bold" href="#footer" tabindex="1">Location</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-success fw-bold" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <!-- carousel -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide  pt-5" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner h m-0">
+    <div class="carousel-item active">
+      <img class="carousel-img" src="image/sandwich-carousal-1.jpg" class="d-block w-100" alt="...">
+    </div>  
+    <div class="carousel-item">
+      <img class="carousel-img" src="image/pizza-carousal-2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img class="carousel-img" src="image/egg-net-thai food-carousal-3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- ORDER SECTION-->
+ <div class="container-fluid pt-5 justify-content-center" id="order">
+   <h1 class="text-center">Order Your Foods Now...</h1>
+
+  <div class="row my-2">
+    <div class="col-md-6 col-sm-12 col-lg-4">
+      <!-- card -->
+       <div class="card border-2 border-warning my-2" style="width:18rem;height:23rem">
+        <img src="image/biriyani.jpg" class="card-img-top img-fluid" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Chicken Biriyani</h5>
+          <p class="card-text">Tasty Chicken Biriyani</p>
+          <h5 class="card-title text-danger">Rs.150</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+      </div>
+    </div>
+  </div>
+    <div class="col-md-4 col-6 col-lg-4">
+      <div class="card border-2 border-warning my-2" style="width: 18rem;height:23rem">
+       <img src="image/breakfast-idli.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Idli</h5>
+          <p class="card-text">Tasty Idli</p>
+          <h5 class="card-title text-danger">Rs.50</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4">
+      <div class="card border-2 border-warning my-2" style="width: 18rem;height:23rem">
+       <img src="image/chicken curry.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Chicken Curry</h5>
+          <p class="card-text">Tasty Chicken Curry</p>
+          <h5 class="card-title text-danger">Rs.150</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-2">
+    <div class="col-md-4 col-sm-6 col-lg-4">
+      <div class="card border-2 border-warning my-2" style="width: 18rem;height:23rem">
+       <img src="image/dosa-.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Ghee Roast</h5>
+          <p class="card-text">Tasty Ghee Roast</p>
+          <h5 class="card-title text-danger">Rs.60</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4">
+      <div class="card border-2 border-warning my-2" style="width: 18rem;height:23rem">
+       <img src="image/fish-fries.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fish Fry</h5>
+          <p class="card-text">Tasty Fish Fry</p>
+          <h5 class="card-title text-danger">Rs.199</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4">
+      <div class="card border-2 border-warning my-2" style="width: 18rem;height:23rem">
+       <img src="image/fish-fry-.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fish Fry</h5>
+          <p class="card-text">Tasty Fish Fry</p>
+          <h5 class="card-title text-danger">Rs.250</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row my-2">
+  <div class="col-md-4 col-sm-6 col-lg-4">
+     <div class="card border-2 border-warning my-2" style="width: 18rem;height:24rem">
+       <img src="image/fried-rice-.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fried Rice</h5>
+          <p class="card-text">Tasty Fried Rice</p>
+          <h5 class="card-title text-danger">Rs.150</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4">
+     <div class="card border-2 border-warning my-2" style="width: 18rem;height:24rem">
+       <img src="image/green-curry-roti.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Green curry Roti</h5>
+          <p class="card-text">Tasty Green curry Roti</p>
+          <h5 class="card-title text-danger">Rs.60</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 col-lg-4">
+     <div class="card border-2 border-warning my-2" style="width: 18rem;height:24rem">
+       <img src="image/masala dosa.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title">Masala Dosa</h5>
+          <p class="card-text">Tasty Masala Dosa</p>
+          <h5 class="card-title text-danger">Rs.60</h5>
+          <a href="#" class="btn btn-primary">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ <!-- Location -->
+  <div class="container-fluid bg-warning ">
+    <div class="row"id="footer">
+      <h1 class="text-center pt-3">Location</h1>
+      <div class="col-12 col-md-6">
+       <h1 class="text-white">Tasty Foods Restaurant</h1>
+       <h3>Kochi</h3>
+       <h3>Kerala</h3>
+       <h4>Tel:048423455</h4>
+       <h4>Email:tasty@email.com</h4>
+       <h4>WWW.tastyFoods.com</h4>
+      </div>
+      <div class="col-12 col-md-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d78120.90631208528!2d76.37217842646615!3d9.940042254130358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d21acb3edbb%3A0xb279fc9797cc341e!2sHoliday%20Inn%20Cochin%2C%20an%20IHG%20Hotel!5e0!3m2!1sen!2sin!4v1750954255942!5m2!1sen!2sin" width="100%" height="600px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
